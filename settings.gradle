@@ -1,0 +1,2 @@
+include ':app', ':phonenumberutil', ':commonutils'
+project(':commonutils').projectDir = new File('../CommonUtils/commonutils')
